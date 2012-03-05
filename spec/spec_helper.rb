@@ -4,6 +4,7 @@ require "logger"
 require "rspec"
 require "rspec-rails"
 require "cache-machine"
+require "cache-machine-redis"
 
 RSpec.configure { |config| config.mock_with :rspec }
 

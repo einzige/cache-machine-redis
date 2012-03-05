@@ -30,10 +30,8 @@ GEM
     activesupport (3.0.9)
     arel (2.0.10)
     builder (2.1.2)
-    cache-machine (0.1.10)
-      activemodel
-      activesupport
-      rails
+    cache-machine (0.2.0)
+      rails (>= 3)
     diff-lcs (1.1.2)
     erubis (2.6.6)
       abstract (>= 1.0.0)
@@ -72,6 +70,7 @@ GEM
     rake (0.9.2)
     rcov (0.9.9)
     rdoc (3.6.1)
+    redis (2.2.2)
     rspec (2.6.0)
       rspec-core (~> 2.6.0)
       rspec-expectations (~> 2.6.0)
@@ -98,10 +97,11 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.0.0)
-  cache-machine
+  cache-machine (~> 0.2.0)
   jeweler (~> 1.6.2)
   rails
   rcov
+  redis
   rspec
   rspec-rails
   sqlite3-ruby

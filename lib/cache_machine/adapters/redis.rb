@@ -1,6 +1,5 @@
 module CacheMachine
   module Adapters
-    require "cache_machine/adapter"
     require "redis"
 
     class Redis < CacheMachine::Adapter

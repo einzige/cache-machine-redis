@@ -1,7 +1,8 @@
 source "http://rubygems.org"
 
 gem "rails"
-gem "cache-machine"
+gem "cache-machine", "~> 0.2.0"
+gem 'redis'
 
 group :development do
   gem "bundler", "~> 1.0.0"
