@@ -4,9 +4,6 @@
 # RubyMine metadata
 .idea
 
-# test database
-db
-
 # rcov generated
 coverage
 
