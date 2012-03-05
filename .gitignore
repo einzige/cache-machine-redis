@@ -1,0 +1,26 @@
+# Packed ge
+*.gem
+
+# RubyMine metadata
+.idea
+
+# test database
+db
+
+# rcov generated
+coverage
+
+# rdoc generated
+rdoc
+
+# yard generated
+doc
+.yardoc
+
+# bundler
+.bundle
+
+# jeweler generated
+pkg
+
+.rspec
